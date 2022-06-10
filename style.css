@@ -18,14 +18,18 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+
+
+/*#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 1;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+
+}*/
+
 
 .bloc {
     width: 100%;
@@ -478,7 +482,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -1061,7 +1065,8 @@ h4 {
     }
 }
 
-a:focus {
+button:focus, input:focus, textarea:focus, a:focus {
     background: red;
-    transform: scale(3);
+    transform: scale(1.2);
 }
+
